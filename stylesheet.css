@@ -1,0 +1,381 @@
+* {
+    box-sizing: unset;
+}
+
+body {
+    margin-right: -100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(bggggg.png);
+    min-height: 100%;
+    width:100%;
+}
+
+a {
+    text-decoration: unset;
+}
+
+.clear {
+    clear: left;
+}
+
+.marquee {
+    margin-top: 125px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    text-align: center;
+    margin-left: -20px;
+    width: 100%;
+}
+.logo{
+   float: left; 
+   margin-left:-60px;
+   margin-top: -15px;
+}
+
+.container h2 {
+    color: red;
+    size:40px;
+    text-align: center;
+    margin-right: 250px;
+}
+
+.container h1 {
+    color: rgb(3, 3, 15);
+    text-align: center;
+    margin-right: 250px;
+    size: 150px;
+}
+
+.container h4 {
+    text-align: center;
+    margin-right: 100px;
+    color: rgba(34, 49, 52, 0.9);
+}
+
+.info h2 {
+    color: rgba(244, 248, 248, 0.9);
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+    font-family: cursive;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    height: 30%;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    margin-left: 150px;
+    width:100%;
+}
+.top-wrapper h2{
+    margin-left: 150px;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    margin-top: -100px;
+    margin-left: 150px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+.lesson-wrapper{
+    width: 110%;
+    position:relative;
+}
+.btn-wrapper {
+    text-align: center;
+}
+
+.btn-wrapper p {
+    text-align: right;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: aqua;
+    margin-right: 10px;
+}
+
+.linkedin {
+    background-color: darkblue;
+    margin-right: 10px;
+}
+
+.pinterest {
+    background-color: red;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    margin-left: -10px;
+}
+
+.logo {
+    height: 80px;
+    width: 100px;
+    padding-left: 80px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -95px;
+    margin-top: -50px;
+}
+
+.header-right a {
+    line-height: 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    padding-top: 10px;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    display: -webkit-box;
+    margin-right: -150px;
+    padding-bottom: -100px;
+}
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    padding-top: -50px;
+    padding-left: 80px;
+    margin-left: -15px;
+    padding-right: -5%;
+    background-color: #f7f7f7;
+    text-align: center;
+    background-image: url(Picture2.jpg);
+    background-size: cover;
+    border-image-width: 10px;
+    left: 0px;
+    right: 0px;
+    height: 20%;
+   
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.heading h2 {
+    font-weight: normal;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.lesson-icon {
+    position: relative;
+    padding: Opx;
+}
+
+.lesson-icon p {
+    position: left;
+    top: 44%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(249, 249, 253);
+    font-family: cursive;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: rgb(43, 175, 199);
+    cursor: pointer;
+    font-family: fantasy;
+    box-shadow: 0 7px rgb(2, 27, 48);
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.contact-form {
+    padding: 30px;
+    margin-right: -150px;
+    color: rgb(3, 21, 53);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* Add CSS for <input> and <textarea> tags */
+
+input {
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding: 10px;
+    font-size: 18px;
+    border: 3px ridge gray;
+}
+
+.require p {
+    color: red;
+}
+
+
+/* Add CSS for contact-submit */
+
+.contact-submit {
+    background-color: aqua;
+    color: black;
+}
+
+footer img {
+    width: 125px;
+}
+
+.contact {
+    padding: -5px;
+}
+
+.socials {
+    padding: -5px;
+}
+
+.footer {
+    background: rgb(16, 16, 17);
+    color: white;
+    height: 350px;
+    position: relative;
+    margin: -8px;
+    width: 1450px;
+}
+
+.connect {
+    margin-left: 30px;
+    padding: -80px;
+}
+.contact{
+ margin-left: 30px;
+}
+.socials{
+ margin-left: 30px;
+}
+.footer-content {
+    height: 250px;
+    display: flex;
+}
+
+.footer-section {
+    flex: 1;
+    padding-top: -25px;
+}
+
+.footer-section h1,
+h2 {
+    color: white;
+}
+
+.contact-formfill {
+    padding: 2px;
+    margin-right: 125px;
+    margin-top: -15px;
+}
+.contact-formfill ul{
+    list-style: none;
+}
+.contact-formfill h2{
+    margin-left: 50px;
+}
+.footer-section-about {
+    padding: 20px;
+}
+
+.footer-bottom {
+    width: 1450px;
+    background: #493e3e;
+    color: rgb(238, 225, 225);
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    padding-top: 20px;
+    bottom: 0px;
+}
